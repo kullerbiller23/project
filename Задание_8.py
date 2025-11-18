@@ -21,6 +21,7 @@ plt.subplot(3, 1, 1)
 plt.plot(omega, I_series, label="Ток I(ω)", color="blue", linewidth=1.5)
 plt.xlabel("ω (рад/с)")
 plt.ylabel("I (А)")
+
 plt.title("Зависимость тока от частоты (последовательное соединение)")
 plt.legend()
 plt.grid(True)
