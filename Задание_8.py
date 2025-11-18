@@ -31,6 +31,7 @@ plt.subplot(3, 1, 2)
 plt.plot(omega, P_series, label="Активная мощность P(ω)", color="orange", linewidth=1.5)
 plt.xlabel("ω (рад/с)")
 plt.ylabel("P (Вт)")
+
 plt.title("Зависимость активной мощности от частоты")
 plt.legend()
 plt.grid(True)
